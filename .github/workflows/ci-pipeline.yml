@@ -10,5 +10,5 @@ jobs:
         -name: checkout Repository
          uses: actions/checkout@v3
 
-         -name: Display CI message
+        -name: Display CI message
          uses: echo "CI Pipeline Executed Successfully"
