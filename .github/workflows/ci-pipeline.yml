@@ -7,8 +7,8 @@ jobs:
       runs-on: ubuntu-latest
 
       steps:
-        -name: checkout Repository
+        - name: Checkout Repository
          uses: actions/checkout@v3
 
-        -name: Display CI message
-         uses: echo "CI Pipeline Executed Successfully"
+        - name: Display CI message
+          run: echo "CI Pipeline Executed Successfully"
